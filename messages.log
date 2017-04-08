@@ -1,0 +1,1020 @@
+04/07/2017 03:46:25 PM - INFO - Starting Web Server
+Starting Web Server
+04/07/2017 03:46:25 PM - INFO - [07/Apr/2017:15:46:25] ENGINE Bus STARTING
+[07/Apr/2017:15:46:25] ENGINE Bus STARTING
+04/07/2017 03:46:25 PM - INFO - [07/Apr/2017:15:46:25] ENGINE Started monitor thread 'Autoreloader'.
+[07/Apr/2017:15:46:25] ENGINE Started monitor thread 'Autoreloader'.
+04/07/2017 03:46:25 PM - INFO - [07/Apr/2017:15:46:25] ENGINE Started monitor thread '_TimeoutMonitor'.
+[07/Apr/2017:15:46:25] ENGINE Started monitor thread '_TimeoutMonitor'.
+04/07/2017 03:46:25 PM - ERROR - [07/Apr/2017:15:46:25] ENGINE Error in HTTP server: shutting down
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/cherrypy/process/servers.py", line 187, in _start_http_thread
+    self.httpserver.start()
+  File "/usr/lib/python2.7/site-packages/cherrypy/wsgiserver/wsgiserver2.py", line 1816, in start
+    self.bind(af, socktype, proto)
+  File "/usr/lib/python2.7/site-packages/cherrypy/wsgiserver/wsgiserver2.py", line 1869, in bind
+    self.socket = self.ssl_adapter.bind(self.socket)
+  File "/usr/lib/python2.7/site-packages/cherrypy/wsgiserver/ssl_pyopenssl.py", line 184, in bind
+    self.context = self.get_context()
+  File "/usr/lib/python2.7/site-packages/cherrypy/wsgiserver/ssl_pyopenssl.py", line 197, in get_context
+    c.use_privatekey_file(self.private_key)
+Error: [('system library', 'fopen', 'No such file or directory'), ('BIO routines', 'FILE_CTRL', 'system lib'), ('SSL routines', 'SSL_CTX_use_PrivateKey_file', 'system lib')]
+
+[07/Apr/2017:15:46:25] ENGINE Error in HTTP server: shutting down
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/cherrypy/process/servers.py", line 187, in _start_http_thread
+    self.httpserver.start()
+  File "/usr/lib/python2.7/site-packages/cherrypy/wsgiserver/wsgiserver2.py", line 1816, in start
+    self.bind(af, socktype, proto)
+  File "/usr/lib/python2.7/site-packages/cherrypy/wsgiserver/wsgiserver2.py", line 1869, in bind
+    self.socket = self.ssl_adapter.bind(self.socket)
+  File "/usr/lib/python2.7/site-packages/cherrypy/wsgiserver/ssl_pyopenssl.py", line 184, in bind
+    self.context = self.get_context()
+  File "/usr/lib/python2.7/site-packages/cherrypy/wsgiserver/ssl_pyopenssl.py", line 197, in get_context
+    c.use_privatekey_file(self.private_key)
+Error: [('system library', 'fopen', 'No such file or directory'), ('BIO routines', 'FILE_CTRL', 'system lib'), ('SSL routines', 'SSL_CTX_use_PrivateKey_file', 'system lib')]
+
+04/07/2017 03:46:25 PM - INFO - [07/Apr/2017:15:46:25] ENGINE Bus STOPPING
+[07/Apr/2017:15:46:25] ENGINE Bus STOPPING
+04/07/2017 03:46:25 PM - INFO - [07/Apr/2017:15:46:25] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8000)) already shut down
+[07/Apr/2017:15:46:25] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8000)) already shut down
+04/07/2017 03:46:25 PM - INFO - [07/Apr/2017:15:46:25] ENGINE Stopped thread '_TimeoutMonitor'.
+[07/Apr/2017:15:46:25] ENGINE Stopped thread '_TimeoutMonitor'.
+04/07/2017 03:46:25 PM - INFO - [07/Apr/2017:15:46:25] ENGINE Stopped thread 'Autoreloader'.
+[07/Apr/2017:15:46:25] ENGINE Stopped thread 'Autoreloader'.
+04/07/2017 03:46:25 PM - INFO - [07/Apr/2017:15:46:25] ENGINE Bus STOPPED
+[07/Apr/2017:15:46:25] ENGINE Bus STOPPED
+04/07/2017 03:46:25 PM - INFO - [07/Apr/2017:15:46:25] ENGINE Bus EXITING
+[07/Apr/2017:15:46:25] ENGINE Bus EXITING
+04/07/2017 03:46:25 PM - INFO - [07/Apr/2017:15:46:25] ENGINE Bus EXITED
+[07/Apr/2017:15:46:25] ENGINE Bus EXITED
+04/07/2017 03:48:01 PM - INFO - Starting Web Server
+Starting Web Server
+04/07/2017 03:48:01 PM - INFO - [07/Apr/2017:15:48:01] ENGINE Bus STARTING
+[07/Apr/2017:15:48:01] ENGINE Bus STARTING
+04/07/2017 03:48:01 PM - INFO - [07/Apr/2017:15:48:01] ENGINE Started monitor thread 'Autoreloader'.
+[07/Apr/2017:15:48:01] ENGINE Started monitor thread 'Autoreloader'.
+04/07/2017 03:48:01 PM - INFO - [07/Apr/2017:15:48:01] ENGINE Started monitor thread '_TimeoutMonitor'.
+[07/Apr/2017:15:48:01] ENGINE Started monitor thread '_TimeoutMonitor'.
+04/07/2017 03:48:01 PM - ERROR - [07/Apr/2017:15:48:01] ENGINE Error in HTTP server: shutting down
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/cherrypy/process/servers.py", line 187, in _start_http_thread
+    self.httpserver.start()
+  File "/usr/lib/python2.7/site-packages/cherrypy/wsgiserver/wsgiserver2.py", line 1816, in start
+    self.bind(af, socktype, proto)
+  File "/usr/lib/python2.7/site-packages/cherrypy/wsgiserver/wsgiserver2.py", line 1869, in bind
+    self.socket = self.ssl_adapter.bind(self.socket)
+  File "/usr/lib/python2.7/site-packages/cherrypy/wsgiserver/ssl_pyopenssl.py", line 184, in bind
+    self.context = self.get_context()
+  File "/usr/lib/python2.7/site-packages/cherrypy/wsgiserver/ssl_pyopenssl.py", line 197, in get_context
+    c.use_privatekey_file(self.private_key)
+Error: [('system library', 'fopen', 'No such file or directory'), ('BIO routines', 'FILE_CTRL', 'system lib'), ('SSL routines', 'SSL_CTX_use_PrivateKey_file', 'system lib')]
+
+[07/Apr/2017:15:48:01] ENGINE Error in HTTP server: shutting down
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/cherrypy/process/servers.py", line 187, in _start_http_thread
+    self.httpserver.start()
+  File "/usr/lib/python2.7/site-packages/cherrypy/wsgiserver/wsgiserver2.py", line 1816, in start
+    self.bind(af, socktype, proto)
+  File "/usr/lib/python2.7/site-packages/cherrypy/wsgiserver/wsgiserver2.py", line 1869, in bind
+    self.socket = self.ssl_adapter.bind(self.socket)
+  File "/usr/lib/python2.7/site-packages/cherrypy/wsgiserver/ssl_pyopenssl.py", line 184, in bind
+    self.context = self.get_context()
+  File "/usr/lib/python2.7/site-packages/cherrypy/wsgiserver/ssl_pyopenssl.py", line 197, in get_context
+    c.use_privatekey_file(self.private_key)
+Error: [('system library', 'fopen', 'No such file or directory'), ('BIO routines', 'FILE_CTRL', 'system lib'), ('SSL routines', 'SSL_CTX_use_PrivateKey_file', 'system lib')]
+
+04/07/2017 03:48:01 PM - INFO - [07/Apr/2017:15:48:01] ENGINE Bus STOPPING
+[07/Apr/2017:15:48:01] ENGINE Bus STOPPING
+04/07/2017 03:48:01 PM - INFO - [07/Apr/2017:15:48:01] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8000)) already shut down
+[07/Apr/2017:15:48:01] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8000)) already shut down
+04/07/2017 03:48:01 PM - INFO - [07/Apr/2017:15:48:01] ENGINE Stopped thread '_TimeoutMonitor'.
+[07/Apr/2017:15:48:01] ENGINE Stopped thread '_TimeoutMonitor'.
+04/07/2017 03:48:01 PM - INFO - [07/Apr/2017:15:48:01] ENGINE Stopped thread 'Autoreloader'.
+[07/Apr/2017:15:48:01] ENGINE Stopped thread 'Autoreloader'.
+04/07/2017 03:48:01 PM - INFO - [07/Apr/2017:15:48:01] ENGINE Bus STOPPED
+[07/Apr/2017:15:48:01] ENGINE Bus STOPPED
+04/07/2017 03:48:01 PM - INFO - [07/Apr/2017:15:48:01] ENGINE Bus EXITING
+[07/Apr/2017:15:48:01] ENGINE Bus EXITING
+04/07/2017 03:48:01 PM - INFO - [07/Apr/2017:15:48:01] ENGINE Bus EXITED
+[07/Apr/2017:15:48:01] ENGINE Bus EXITED
+04/07/2017 03:48:38 PM - INFO - Starting Web Server
+Starting Web Server
+04/07/2017 03:48:38 PM - INFO - [07/Apr/2017:15:48:38] ENGINE Bus STARTING
+[07/Apr/2017:15:48:38] ENGINE Bus STARTING
+04/07/2017 03:48:38 PM - INFO - [07/Apr/2017:15:48:38] ENGINE Started monitor thread 'Autoreloader'.
+[07/Apr/2017:15:48:38] ENGINE Started monitor thread 'Autoreloader'.
+04/07/2017 03:48:38 PM - INFO - [07/Apr/2017:15:48:38] ENGINE Started monitor thread '_TimeoutMonitor'.
+[07/Apr/2017:15:48:38] ENGINE Started monitor thread '_TimeoutMonitor'.
+04/07/2017 03:48:38 PM - INFO - [07/Apr/2017:15:48:38] ENGINE Serving on 0.0.0.0:8000
+[07/Apr/2017:15:48:38] ENGINE Serving on 0.0.0.0:8000
+04/07/2017 03:48:38 PM - INFO - [07/Apr/2017:15:48:38] ENGINE Bus STARTED
+[07/Apr/2017:15:48:38] ENGINE Bus STARTED
+04/07/2017 03:49:23 PM - ERROR - Exception on /process_device [POST]
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/Flask-0.10.1-py2.7.egg/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/lib/python2.7/site-packages/Flask-0.10.1-py2.7.egg/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/lib/python2.7/site-packages/Flask-0.10.1-py2.7.egg/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/lib/python2.7/site-packages/Flask-0.10.1-py2.7.egg/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/lib/python2.7/site-packages/Flask-0.10.1-py2.7.egg/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+TypeError: process_device() takes exactly 1 argument (0 given)
+Exception on /process_device [POST]
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/Flask-0.10.1-py2.7.egg/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/lib/python2.7/site-packages/Flask-0.10.1-py2.7.egg/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/lib/python2.7/site-packages/Flask-0.10.1-py2.7.egg/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/lib/python2.7/site-packages/Flask-0.10.1-py2.7.egg/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/lib/python2.7/site-packages/Flask-0.10.1-py2.7.egg/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+TypeError: process_device() takes exactly 1 argument (0 given)
+04/07/2017 03:53:40 PM - INFO - Starting Web Server
+Starting Web Server
+04/07/2017 03:53:40 PM - INFO - [07/Apr/2017:15:53:40] ENGINE Bus STARTING
+[07/Apr/2017:15:53:40] ENGINE Bus STARTING
+04/07/2017 03:53:40 PM - INFO - [07/Apr/2017:15:53:40] ENGINE Started monitor thread 'Autoreloader'.
+[07/Apr/2017:15:53:40] ENGINE Started monitor thread 'Autoreloader'.
+04/07/2017 03:53:40 PM - INFO - [07/Apr/2017:15:53:40] ENGINE Started monitor thread '_TimeoutMonitor'.
+[07/Apr/2017:15:53:40] ENGINE Started monitor thread '_TimeoutMonitor'.
+04/07/2017 03:53:41 PM - INFO - [07/Apr/2017:15:53:41] ENGINE Serving on 0.0.0.0:8000
+[07/Apr/2017:15:53:41] ENGINE Serving on 0.0.0.0:8000
+04/07/2017 03:53:41 PM - INFO - [07/Apr/2017:15:53:41] ENGINE Bus STARTED
+[07/Apr/2017:15:53:41] ENGINE Bus STARTED
+04/07/2017 03:54:09 PM - INFO - [07/Apr/2017:15:54:09] ENGINE SystemExit raised: shutting down HTTP server
+[07/Apr/2017:15:54:09] ENGINE SystemExit raised: shutting down HTTP server
+04/07/2017 03:54:09 PM - INFO - [07/Apr/2017:15:54:09] ENGINE Bus STOPPING
+[07/Apr/2017:15:54:09] ENGINE Bus STOPPING
+04/07/2017 03:54:09 PM - INFO - [07/Apr/2017:15:54:09] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8000)) shut down
+[07/Apr/2017:15:54:09] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8000)) shut down
+04/07/2017 03:54:09 PM - INFO - [07/Apr/2017:15:54:09] ENGINE Stopped thread '_TimeoutMonitor'.
+[07/Apr/2017:15:54:09] ENGINE Stopped thread '_TimeoutMonitor'.
+04/07/2017 03:54:09 PM - INFO - [07/Apr/2017:15:54:09] ENGINE Stopped thread 'Autoreloader'.
+[07/Apr/2017:15:54:09] ENGINE Stopped thread 'Autoreloader'.
+04/07/2017 03:54:09 PM - INFO - [07/Apr/2017:15:54:09] ENGINE Bus STOPPED
+[07/Apr/2017:15:54:09] ENGINE Bus STOPPED
+04/07/2017 03:54:09 PM - INFO - [07/Apr/2017:15:54:09] ENGINE Bus EXITING
+[07/Apr/2017:15:54:09] ENGINE Bus EXITING
+04/07/2017 03:54:09 PM - INFO - [07/Apr/2017:15:54:09] ENGINE Bus EXITED
+[07/Apr/2017:15:54:09] ENGINE Bus EXITED
+04/07/2017 03:54:09 PM - INFO - [07/Apr/2017:15:54:09] ENGINE Waiting for child threads to terminate...
+[07/Apr/2017:15:54:09] ENGINE Waiting for child threads to terminate...
+04/07/2017 03:57:18 PM - INFO - Starting Web Server
+Starting Web Server
+04/07/2017 03:57:18 PM - INFO - [07/Apr/2017:15:57:18] ENGINE Bus STARTING
+[07/Apr/2017:15:57:18] ENGINE Bus STARTING
+04/07/2017 03:57:18 PM - INFO - [07/Apr/2017:15:57:18] ENGINE Started monitor thread 'Autoreloader'.
+[07/Apr/2017:15:57:18] ENGINE Started monitor thread 'Autoreloader'.
+04/07/2017 03:57:18 PM - INFO - [07/Apr/2017:15:57:18] ENGINE Started monitor thread '_TimeoutMonitor'.
+[07/Apr/2017:15:57:18] ENGINE Started monitor thread '_TimeoutMonitor'.
+04/07/2017 03:57:18 PM - INFO - [07/Apr/2017:15:57:18] ENGINE Serving on 0.0.0.0:8000
+[07/Apr/2017:15:57:18] ENGINE Serving on 0.0.0.0:8000
+04/07/2017 03:57:18 PM - INFO - [07/Apr/2017:15:57:18] ENGINE Bus STARTED
+[07/Apr/2017:15:57:18] ENGINE Bus STARTED
+04/07/2017 03:58:41 PM - INFO - Starting Web Server
+Starting Web Server
+04/07/2017 03:58:41 PM - INFO - [07/Apr/2017:15:58:41] ENGINE Bus STARTING
+[07/Apr/2017:15:58:41] ENGINE Bus STARTING
+04/07/2017 03:58:41 PM - INFO - [07/Apr/2017:15:58:41] ENGINE Started monitor thread 'Autoreloader'.
+[07/Apr/2017:15:58:41] ENGINE Started monitor thread 'Autoreloader'.
+04/07/2017 03:58:41 PM - INFO - [07/Apr/2017:15:58:41] ENGINE Started monitor thread '_TimeoutMonitor'.
+[07/Apr/2017:15:58:41] ENGINE Started monitor thread '_TimeoutMonitor'.
+04/07/2017 03:58:41 PM - INFO - [07/Apr/2017:15:58:41] ENGINE Serving on 0.0.0.0:8000
+[07/Apr/2017:15:58:41] ENGINE Serving on 0.0.0.0:8000
+04/07/2017 03:58:41 PM - INFO - [07/Apr/2017:15:58:41] ENGINE Bus STARTED
+[07/Apr/2017:15:58:41] ENGINE Bus STARTED
+04/07/2017 04:14:24 PM - INFO - Starting Web Server
+Starting Web Server
+04/07/2017 04:14:24 PM - INFO - [07/Apr/2017:16:14:24] ENGINE Bus STARTING
+[07/Apr/2017:16:14:24] ENGINE Bus STARTING
+04/07/2017 04:14:24 PM - INFO - [07/Apr/2017:16:14:24] ENGINE Started monitor thread 'Autoreloader'.
+[07/Apr/2017:16:14:24] ENGINE Started monitor thread 'Autoreloader'.
+04/07/2017 04:14:24 PM - INFO - [07/Apr/2017:16:14:24] ENGINE Started monitor thread '_TimeoutMonitor'.
+[07/Apr/2017:16:14:24] ENGINE Started monitor thread '_TimeoutMonitor'.
+04/07/2017 04:14:25 PM - INFO - [07/Apr/2017:16:14:25] ENGINE Serving on 0.0.0.0:8000
+[07/Apr/2017:16:14:25] ENGINE Serving on 0.0.0.0:8000
+04/07/2017 04:14:25 PM - INFO - [07/Apr/2017:16:14:25] ENGINE Bus STARTED
+[07/Apr/2017:16:14:25] ENGINE Bus STARTED
+04/07/2017 04:16:12 PM - ERROR - Exception on /runjob [POST]
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/Flask-0.10.1-py2.7.egg/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/lib/python2.7/site-packages/Flask-0.10.1-py2.7.egg/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/lib/python2.7/site-packages/Flask-0.10.1-py2.7.egg/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/lib/python2.7/site-packages/Flask-0.10.1-py2.7.egg/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/lib/python2.7/site-packages/Flask-0.10.1-py2.7.egg/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+TypeError: runjob() takes exactly 1 argument (0 given)
+Exception on /runjob [POST]
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/Flask-0.10.1-py2.7.egg/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/lib/python2.7/site-packages/Flask-0.10.1-py2.7.egg/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/lib/python2.7/site-packages/Flask-0.10.1-py2.7.egg/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/lib/python2.7/site-packages/Flask-0.10.1-py2.7.egg/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/lib/python2.7/site-packages/Flask-0.10.1-py2.7.egg/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+TypeError: runjob() takes exactly 1 argument (0 given)
+04/07/2017 04:22:11 PM - INFO - Starting Web Server
+Starting Web Server
+04/07/2017 04:22:11 PM - INFO - [07/Apr/2017:16:22:11] ENGINE Bus STARTING
+[07/Apr/2017:16:22:11] ENGINE Bus STARTING
+04/07/2017 04:22:11 PM - INFO - [07/Apr/2017:16:22:11] ENGINE Started monitor thread 'Autoreloader'.
+[07/Apr/2017:16:22:11] ENGINE Started monitor thread 'Autoreloader'.
+04/07/2017 04:22:11 PM - INFO - [07/Apr/2017:16:22:11] ENGINE Started monitor thread '_TimeoutMonitor'.
+[07/Apr/2017:16:22:11] ENGINE Started monitor thread '_TimeoutMonitor'.
+04/07/2017 04:22:12 PM - INFO - [07/Apr/2017:16:22:12] ENGINE Serving on 0.0.0.0:443
+[07/Apr/2017:16:22:12] ENGINE Serving on 0.0.0.0:443
+04/07/2017 04:22:12 PM - INFO - [07/Apr/2017:16:22:12] ENGINE Bus STARTED
+[07/Apr/2017:16:22:12] ENGINE Bus STARTED
+04/07/2017 04:22:28 PM - ERROR - Exception on /runjob [POST]
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/Flask-0.10.1-py2.7.egg/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/lib/python2.7/site-packages/Flask-0.10.1-py2.7.egg/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/lib/python2.7/site-packages/Flask-0.10.1-py2.7.egg/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/lib/python2.7/site-packages/Flask-0.10.1-py2.7.egg/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/lib/python2.7/site-packages/Flask-0.10.1-py2.7.egg/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+TypeError: runjob() takes exactly 1 argument (0 given)
+Exception on /runjob [POST]
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/Flask-0.10.1-py2.7.egg/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/lib/python2.7/site-packages/Flask-0.10.1-py2.7.egg/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/lib/python2.7/site-packages/Flask-0.10.1-py2.7.egg/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/lib/python2.7/site-packages/Flask-0.10.1-py2.7.egg/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/lib/python2.7/site-packages/Flask-0.10.1-py2.7.egg/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+TypeError: runjob() takes exactly 1 argument (0 given)
+04/07/2017 04:23:04 PM - ERROR - Exception on /runjob [POST]
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/Flask-0.10.1-py2.7.egg/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/lib/python2.7/site-packages/Flask-0.10.1-py2.7.egg/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/lib/python2.7/site-packages/Flask-0.10.1-py2.7.egg/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/lib/python2.7/site-packages/Flask-0.10.1-py2.7.egg/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/lib/python2.7/site-packages/Flask-0.10.1-py2.7.egg/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+TypeError: runjob() takes exactly 1 argument (0 given)
+Exception on /runjob [POST]
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/Flask-0.10.1-py2.7.egg/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/lib/python2.7/site-packages/Flask-0.10.1-py2.7.egg/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/lib/python2.7/site-packages/Flask-0.10.1-py2.7.egg/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/lib/python2.7/site-packages/Flask-0.10.1-py2.7.egg/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/lib/python2.7/site-packages/Flask-0.10.1-py2.7.egg/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+TypeError: runjob() takes exactly 1 argument (0 given)
+04/07/2017 04:25:12 PM - INFO - Starting Web Server
+Starting Web Server
+04/07/2017 04:25:12 PM - INFO - [07/Apr/2017:16:25:12] ENGINE Bus STARTING
+[07/Apr/2017:16:25:12] ENGINE Bus STARTING
+04/07/2017 04:25:12 PM - INFO - [07/Apr/2017:16:25:12] ENGINE Started monitor thread 'Autoreloader'.
+[07/Apr/2017:16:25:12] ENGINE Started monitor thread 'Autoreloader'.
+04/07/2017 04:25:12 PM - INFO - [07/Apr/2017:16:25:12] ENGINE Started monitor thread '_TimeoutMonitor'.
+[07/Apr/2017:16:25:12] ENGINE Started monitor thread '_TimeoutMonitor'.
+04/07/2017 04:25:13 PM - INFO - [07/Apr/2017:16:25:13] ENGINE Serving on 0.0.0.0:443
+[07/Apr/2017:16:25:13] ENGINE Serving on 0.0.0.0:443
+04/07/2017 04:25:13 PM - INFO - [07/Apr/2017:16:25:13] ENGINE Bus STARTED
+[07/Apr/2017:16:25:13] ENGINE Bus STARTED
+04/07/2017 04:25:27 PM - ERROR - Exception on /runjob [POST]
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/Flask-0.10.1-py2.7.egg/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/lib/python2.7/site-packages/Flask-0.10.1-py2.7.egg/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/lib/python2.7/site-packages/Flask-0.10.1-py2.7.egg/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/lib/python2.7/site-packages/Flask-0.10.1-py2.7.egg/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/lib/python2.7/site-packages/Flask-0.10.1-py2.7.egg/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+TypeError: runjob() takes exactly 1 argument (0 given)
+Exception on /runjob [POST]
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/Flask-0.10.1-py2.7.egg/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/lib/python2.7/site-packages/Flask-0.10.1-py2.7.egg/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/lib/python2.7/site-packages/Flask-0.10.1-py2.7.egg/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/lib/python2.7/site-packages/Flask-0.10.1-py2.7.egg/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/lib/python2.7/site-packages/Flask-0.10.1-py2.7.egg/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+TypeError: runjob() takes exactly 1 argument (0 given)
+04/07/2017 04:27:02 PM - INFO - Starting Web Server
+Starting Web Server
+04/07/2017 04:27:02 PM - INFO - [07/Apr/2017:16:27:02] ENGINE Bus STARTING
+[07/Apr/2017:16:27:02] ENGINE Bus STARTING
+04/07/2017 04:27:02 PM - INFO - [07/Apr/2017:16:27:02] ENGINE Started monitor thread 'Autoreloader'.
+[07/Apr/2017:16:27:02] ENGINE Started monitor thread 'Autoreloader'.
+04/07/2017 04:27:02 PM - INFO - [07/Apr/2017:16:27:02] ENGINE Started monitor thread '_TimeoutMonitor'.
+[07/Apr/2017:16:27:02] ENGINE Started monitor thread '_TimeoutMonitor'.
+04/07/2017 04:27:02 PM - INFO - [07/Apr/2017:16:27:02] ENGINE Serving on 0.0.0.0:443
+[07/Apr/2017:16:27:02] ENGINE Serving on 0.0.0.0:443
+04/07/2017 04:27:02 PM - INFO - [07/Apr/2017:16:27:02] ENGINE Bus STARTED
+[07/Apr/2017:16:27:02] ENGINE Bus STARTED
+04/07/2017 04:27:21 PM - INFO - [07/Apr/2017:16:27:21] ENGINE SystemExit raised: shutting down HTTP server
+[07/Apr/2017:16:27:21] ENGINE SystemExit raised: shutting down HTTP server
+04/07/2017 04:27:21 PM - INFO - [07/Apr/2017:16:27:21] ENGINE Bus STOPPING
+[07/Apr/2017:16:27:21] ENGINE Bus STOPPING
+04/07/2017 04:27:21 PM - INFO - [07/Apr/2017:16:27:21] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 443)) shut down
+[07/Apr/2017:16:27:21] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 443)) shut down
+04/07/2017 04:27:21 PM - INFO - [07/Apr/2017:16:27:21] ENGINE Stopped thread '_TimeoutMonitor'.
+[07/Apr/2017:16:27:21] ENGINE Stopped thread '_TimeoutMonitor'.
+04/07/2017 04:27:21 PM - INFO - [07/Apr/2017:16:27:21] ENGINE Stopped thread 'Autoreloader'.
+[07/Apr/2017:16:27:21] ENGINE Stopped thread 'Autoreloader'.
+04/07/2017 04:27:21 PM - INFO - [07/Apr/2017:16:27:21] ENGINE Bus STOPPED
+[07/Apr/2017:16:27:21] ENGINE Bus STOPPED
+04/07/2017 04:27:21 PM - INFO - [07/Apr/2017:16:27:21] ENGINE Bus EXITING
+[07/Apr/2017:16:27:21] ENGINE Bus EXITING
+04/07/2017 04:27:21 PM - INFO - [07/Apr/2017:16:27:21] ENGINE Bus EXITED
+[07/Apr/2017:16:27:21] ENGINE Bus EXITED
+04/07/2017 04:27:21 PM - INFO - [07/Apr/2017:16:27:21] ENGINE Waiting for child threads to terminate...
+[07/Apr/2017:16:27:21] ENGINE Waiting for child threads to terminate...
+04/07/2017 04:29:06 PM - INFO - Starting Web Server
+Starting Web Server
+04/07/2017 04:29:06 PM - INFO - [07/Apr/2017:16:29:06] ENGINE Bus STARTING
+[07/Apr/2017:16:29:06] ENGINE Bus STARTING
+04/07/2017 04:29:06 PM - INFO - [07/Apr/2017:16:29:06] ENGINE Started monitor thread 'Autoreloader'.
+[07/Apr/2017:16:29:06] ENGINE Started monitor thread 'Autoreloader'.
+04/07/2017 04:29:06 PM - INFO - [07/Apr/2017:16:29:06] ENGINE Started monitor thread '_TimeoutMonitor'.
+[07/Apr/2017:16:29:06] ENGINE Started monitor thread '_TimeoutMonitor'.
+04/07/2017 04:29:06 PM - INFO - [07/Apr/2017:16:29:06] ENGINE Serving on 0.0.0.0:443
+[07/Apr/2017:16:29:06] ENGINE Serving on 0.0.0.0:443
+04/07/2017 04:29:06 PM - INFO - [07/Apr/2017:16:29:06] ENGINE Bus STARTED
+[07/Apr/2017:16:29:06] ENGINE Bus STARTED
+04/07/2017 04:29:12 PM - INFO - [07/Apr/2017:16:29:12] ENGINE SystemExit raised: shutting down HTTP server
+[07/Apr/2017:16:29:12] ENGINE SystemExit raised: shutting down HTTP server
+04/07/2017 04:29:12 PM - INFO - [07/Apr/2017:16:29:12] ENGINE Bus STOPPING
+[07/Apr/2017:16:29:12] ENGINE Bus STOPPING
+04/07/2017 04:29:12 PM - INFO - [07/Apr/2017:16:29:12] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 443)) shut down
+[07/Apr/2017:16:29:12] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 443)) shut down
+04/07/2017 04:29:12 PM - INFO - [07/Apr/2017:16:29:12] ENGINE Stopped thread '_TimeoutMonitor'.
+[07/Apr/2017:16:29:12] ENGINE Stopped thread '_TimeoutMonitor'.
+04/07/2017 04:29:12 PM - INFO - [07/Apr/2017:16:29:12] ENGINE Stopped thread 'Autoreloader'.
+[07/Apr/2017:16:29:12] ENGINE Stopped thread 'Autoreloader'.
+04/07/2017 04:29:12 PM - INFO - [07/Apr/2017:16:29:12] ENGINE Bus STOPPED
+[07/Apr/2017:16:29:12] ENGINE Bus STOPPED
+04/07/2017 04:29:12 PM - INFO - [07/Apr/2017:16:29:12] ENGINE Bus EXITING
+[07/Apr/2017:16:29:12] ENGINE Bus EXITING
+04/07/2017 04:29:12 PM - INFO - [07/Apr/2017:16:29:12] ENGINE Bus EXITED
+[07/Apr/2017:16:29:12] ENGINE Bus EXITED
+04/07/2017 04:29:12 PM - INFO - [07/Apr/2017:16:29:12] ENGINE Waiting for child threads to terminate...
+[07/Apr/2017:16:29:12] ENGINE Waiting for child threads to terminate...
+04/07/2017 04:29:20 PM - INFO - Starting Web Server
+Starting Web Server
+04/07/2017 04:29:20 PM - INFO - [07/Apr/2017:16:29:20] ENGINE Bus STARTING
+[07/Apr/2017:16:29:20] ENGINE Bus STARTING
+04/07/2017 04:29:20 PM - INFO - [07/Apr/2017:16:29:20] ENGINE Started monitor thread 'Autoreloader'.
+[07/Apr/2017:16:29:20] ENGINE Started monitor thread 'Autoreloader'.
+04/07/2017 04:29:20 PM - INFO - [07/Apr/2017:16:29:20] ENGINE Started monitor thread '_TimeoutMonitor'.
+[07/Apr/2017:16:29:20] ENGINE Started monitor thread '_TimeoutMonitor'.
+04/07/2017 04:29:21 PM - INFO - [07/Apr/2017:16:29:21] ENGINE Serving on 0.0.0.0:443
+[07/Apr/2017:16:29:21] ENGINE Serving on 0.0.0.0:443
+04/07/2017 04:29:21 PM - INFO - [07/Apr/2017:16:29:21] ENGINE Bus STARTED
+[07/Apr/2017:16:29:21] ENGINE Bus STARTED
+04/07/2017 04:29:37 PM - INFO - [07/Apr/2017:16:29:37] ENGINE SystemExit raised: shutting down HTTP server
+[07/Apr/2017:16:29:37] ENGINE SystemExit raised: shutting down HTTP server
+04/07/2017 04:29:37 PM - INFO - [07/Apr/2017:16:29:37] ENGINE Bus STOPPING
+[07/Apr/2017:16:29:37] ENGINE Bus STOPPING
+04/07/2017 04:29:37 PM - INFO - [07/Apr/2017:16:29:37] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 443)) shut down
+[07/Apr/2017:16:29:37] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 443)) shut down
+04/07/2017 04:29:37 PM - INFO - [07/Apr/2017:16:29:37] ENGINE Stopped thread '_TimeoutMonitor'.
+[07/Apr/2017:16:29:37] ENGINE Stopped thread '_TimeoutMonitor'.
+04/07/2017 04:29:37 PM - INFO - [07/Apr/2017:16:29:37] ENGINE Stopped thread 'Autoreloader'.
+[07/Apr/2017:16:29:37] ENGINE Stopped thread 'Autoreloader'.
+04/07/2017 04:29:37 PM - INFO - [07/Apr/2017:16:29:37] ENGINE Bus STOPPED
+[07/Apr/2017:16:29:37] ENGINE Bus STOPPED
+04/07/2017 04:29:37 PM - INFO - [07/Apr/2017:16:29:37] ENGINE Bus EXITING
+[07/Apr/2017:16:29:37] ENGINE Bus EXITING
+04/07/2017 04:29:37 PM - INFO - [07/Apr/2017:16:29:37] ENGINE Bus EXITED
+[07/Apr/2017:16:29:37] ENGINE Bus EXITED
+04/07/2017 04:29:37 PM - INFO - [07/Apr/2017:16:29:37] ENGINE Waiting for child threads to terminate...
+[07/Apr/2017:16:29:37] ENGINE Waiting for child threads to terminate...
+04/07/2017 04:30:10 PM - INFO - Starting Web Server
+Starting Web Server
+04/07/2017 04:30:10 PM - INFO - [07/Apr/2017:16:30:10] ENGINE Bus STARTING
+[07/Apr/2017:16:30:10] ENGINE Bus STARTING
+04/07/2017 04:30:10 PM - INFO - [07/Apr/2017:16:30:10] ENGINE Started monitor thread 'Autoreloader'.
+[07/Apr/2017:16:30:10] ENGINE Started monitor thread 'Autoreloader'.
+04/07/2017 04:30:10 PM - INFO - [07/Apr/2017:16:30:10] ENGINE Started monitor thread '_TimeoutMonitor'.
+[07/Apr/2017:16:30:10] ENGINE Started monitor thread '_TimeoutMonitor'.
+04/07/2017 04:30:10 PM - INFO - [07/Apr/2017:16:30:10] ENGINE Serving on 0.0.0.0:443
+[07/Apr/2017:16:30:10] ENGINE Serving on 0.0.0.0:443
+04/07/2017 04:30:10 PM - INFO - [07/Apr/2017:16:30:10] ENGINE Bus STARTED
+[07/Apr/2017:16:30:10] ENGINE Bus STARTED
+04/07/2017 04:30:26 PM - INFO - [07/Apr/2017:16:30:26] ENGINE SystemExit raised: shutting down HTTP server
+[07/Apr/2017:16:30:26] ENGINE SystemExit raised: shutting down HTTP server
+04/07/2017 04:30:26 PM - INFO - [07/Apr/2017:16:30:26] ENGINE Bus STOPPING
+[07/Apr/2017:16:30:26] ENGINE Bus STOPPING
+04/07/2017 04:30:26 PM - INFO - [07/Apr/2017:16:30:26] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 443)) shut down
+[07/Apr/2017:16:30:26] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 443)) shut down
+04/07/2017 04:30:26 PM - INFO - [07/Apr/2017:16:30:26] ENGINE Stopped thread 'Autoreloader'.
+[07/Apr/2017:16:30:26] ENGINE Stopped thread 'Autoreloader'.
+04/07/2017 04:30:26 PM - INFO - [07/Apr/2017:16:30:26] ENGINE Stopped thread '_TimeoutMonitor'.
+[07/Apr/2017:16:30:26] ENGINE Stopped thread '_TimeoutMonitor'.
+04/07/2017 04:30:26 PM - INFO - [07/Apr/2017:16:30:26] ENGINE Bus STOPPED
+[07/Apr/2017:16:30:26] ENGINE Bus STOPPED
+04/07/2017 04:30:26 PM - INFO - [07/Apr/2017:16:30:26] ENGINE Bus EXITING
+[07/Apr/2017:16:30:26] ENGINE Bus EXITING
+04/07/2017 04:30:26 PM - INFO - [07/Apr/2017:16:30:26] ENGINE Bus EXITED
+[07/Apr/2017:16:30:26] ENGINE Bus EXITED
+04/07/2017 04:30:26 PM - INFO - [07/Apr/2017:16:30:26] ENGINE Waiting for child threads to terminate...
+[07/Apr/2017:16:30:26] ENGINE Waiting for child threads to terminate...
+04/07/2017 04:32:16 PM - INFO - Starting Web Server
+Starting Web Server
+04/07/2017 04:32:16 PM - INFO - [07/Apr/2017:16:32:16] ENGINE Bus STARTING
+[07/Apr/2017:16:32:16] ENGINE Bus STARTING
+04/07/2017 04:32:16 PM - INFO - [07/Apr/2017:16:32:16] ENGINE Started monitor thread 'Autoreloader'.
+[07/Apr/2017:16:32:16] ENGINE Started monitor thread 'Autoreloader'.
+04/07/2017 04:32:16 PM - INFO - [07/Apr/2017:16:32:16] ENGINE Started monitor thread '_TimeoutMonitor'.
+[07/Apr/2017:16:32:16] ENGINE Started monitor thread '_TimeoutMonitor'.
+04/07/2017 04:32:17 PM - INFO - [07/Apr/2017:16:32:17] ENGINE Serving on 0.0.0.0:443
+[07/Apr/2017:16:32:17] ENGINE Serving on 0.0.0.0:443
+04/07/2017 04:32:17 PM - INFO - [07/Apr/2017:16:32:17] ENGINE Bus STARTED
+[07/Apr/2017:16:32:17] ENGINE Bus STARTED
+04/07/2017 04:32:33 PM - INFO - [07/Apr/2017:16:32:33] ENGINE SystemExit raised: shutting down HTTP server
+[07/Apr/2017:16:32:33] ENGINE SystemExit raised: shutting down HTTP server
+04/07/2017 04:32:33 PM - INFO - [07/Apr/2017:16:32:33] ENGINE Bus STOPPING
+[07/Apr/2017:16:32:33] ENGINE Bus STOPPING
+04/07/2017 04:32:33 PM - INFO - [07/Apr/2017:16:32:33] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 443)) shut down
+[07/Apr/2017:16:32:33] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 443)) shut down
+04/07/2017 04:32:33 PM - INFO - [07/Apr/2017:16:32:33] ENGINE Stopped thread 'Autoreloader'.
+[07/Apr/2017:16:32:33] ENGINE Stopped thread 'Autoreloader'.
+04/07/2017 04:32:33 PM - INFO - [07/Apr/2017:16:32:33] ENGINE Stopped thread '_TimeoutMonitor'.
+[07/Apr/2017:16:32:33] ENGINE Stopped thread '_TimeoutMonitor'.
+04/07/2017 04:32:33 PM - INFO - [07/Apr/2017:16:32:33] ENGINE Bus STOPPED
+[07/Apr/2017:16:32:33] ENGINE Bus STOPPED
+04/07/2017 04:32:33 PM - INFO - [07/Apr/2017:16:32:33] ENGINE Bus EXITING
+[07/Apr/2017:16:32:33] ENGINE Bus EXITING
+04/07/2017 04:32:33 PM - INFO - [07/Apr/2017:16:32:33] ENGINE Bus EXITED
+[07/Apr/2017:16:32:33] ENGINE Bus EXITED
+04/07/2017 04:32:33 PM - INFO - [07/Apr/2017:16:32:33] ENGINE Waiting for child threads to terminate...
+[07/Apr/2017:16:32:33] ENGINE Waiting for child threads to terminate...
+04/07/2017 04:34:30 PM - INFO - Starting Web Server
+Starting Web Server
+04/07/2017 04:34:30 PM - INFO - [07/Apr/2017:16:34:30] ENGINE Bus STARTING
+[07/Apr/2017:16:34:30] ENGINE Bus STARTING
+04/07/2017 04:34:30 PM - INFO - [07/Apr/2017:16:34:30] ENGINE Started monitor thread 'Autoreloader'.
+[07/Apr/2017:16:34:30] ENGINE Started monitor thread 'Autoreloader'.
+04/07/2017 04:34:30 PM - INFO - [07/Apr/2017:16:34:30] ENGINE Started monitor thread '_TimeoutMonitor'.
+[07/Apr/2017:16:34:30] ENGINE Started monitor thread '_TimeoutMonitor'.
+04/07/2017 04:34:30 PM - INFO - [07/Apr/2017:16:34:30] ENGINE Serving on 0.0.0.0:443
+[07/Apr/2017:16:34:30] ENGINE Serving on 0.0.0.0:443
+04/07/2017 04:34:30 PM - INFO - [07/Apr/2017:16:34:30] ENGINE Bus STARTED
+[07/Apr/2017:16:34:30] ENGINE Bus STARTED
+04/07/2017 04:34:47 PM - INFO - [07/Apr/2017:16:34:47] ENGINE SystemExit raised: shutting down HTTP server
+[07/Apr/2017:16:34:47] ENGINE SystemExit raised: shutting down HTTP server
+04/07/2017 04:34:47 PM - INFO - [07/Apr/2017:16:34:47] ENGINE Bus STOPPING
+[07/Apr/2017:16:34:47] ENGINE Bus STOPPING
+04/07/2017 04:34:47 PM - INFO - [07/Apr/2017:16:34:47] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 443)) shut down
+[07/Apr/2017:16:34:47] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 443)) shut down
+04/07/2017 04:34:47 PM - INFO - [07/Apr/2017:16:34:47] ENGINE Stopped thread 'Autoreloader'.
+[07/Apr/2017:16:34:47] ENGINE Stopped thread 'Autoreloader'.
+04/07/2017 04:34:47 PM - INFO - [07/Apr/2017:16:34:47] ENGINE Stopped thread '_TimeoutMonitor'.
+[07/Apr/2017:16:34:47] ENGINE Stopped thread '_TimeoutMonitor'.
+04/07/2017 04:34:47 PM - INFO - [07/Apr/2017:16:34:47] ENGINE Bus STOPPED
+[07/Apr/2017:16:34:47] ENGINE Bus STOPPED
+04/07/2017 04:34:47 PM - INFO - [07/Apr/2017:16:34:47] ENGINE Bus EXITING
+[07/Apr/2017:16:34:47] ENGINE Bus EXITING
+04/07/2017 04:34:47 PM - INFO - [07/Apr/2017:16:34:47] ENGINE Bus EXITED
+[07/Apr/2017:16:34:47] ENGINE Bus EXITED
+04/07/2017 04:34:47 PM - INFO - [07/Apr/2017:16:34:47] ENGINE Waiting for child threads to terminate...
+[07/Apr/2017:16:34:47] ENGINE Waiting for child threads to terminate...
+04/07/2017 04:37:17 PM - INFO - Starting Web Server
+Starting Web Server
+04/07/2017 04:37:17 PM - INFO - [07/Apr/2017:16:37:17] ENGINE Bus STARTING
+[07/Apr/2017:16:37:17] ENGINE Bus STARTING
+04/07/2017 04:37:17 PM - INFO - [07/Apr/2017:16:37:17] ENGINE Started monitor thread 'Autoreloader'.
+[07/Apr/2017:16:37:17] ENGINE Started monitor thread 'Autoreloader'.
+04/07/2017 04:37:17 PM - INFO - [07/Apr/2017:16:37:17] ENGINE Started monitor thread '_TimeoutMonitor'.
+[07/Apr/2017:16:37:17] ENGINE Started monitor thread '_TimeoutMonitor'.
+04/07/2017 04:37:17 PM - INFO - [07/Apr/2017:16:37:17] ENGINE Serving on 0.0.0.0:443
+[07/Apr/2017:16:37:17] ENGINE Serving on 0.0.0.0:443
+04/07/2017 04:37:17 PM - INFO - [07/Apr/2017:16:37:17] ENGINE Bus STARTED
+[07/Apr/2017:16:37:17] ENGINE Bus STARTED
+04/07/2017 04:37:36 PM - INFO - [07/Apr/2017:16:37:36] ENGINE SystemExit raised: shutting down HTTP server
+[07/Apr/2017:16:37:36] ENGINE SystemExit raised: shutting down HTTP server
+04/07/2017 04:37:36 PM - INFO - [07/Apr/2017:16:37:36] ENGINE Bus STOPPING
+[07/Apr/2017:16:37:36] ENGINE Bus STOPPING
+04/07/2017 04:37:36 PM - INFO - [07/Apr/2017:16:37:36] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 443)) shut down
+[07/Apr/2017:16:37:36] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 443)) shut down
+04/07/2017 04:37:36 PM - INFO - [07/Apr/2017:16:37:36] ENGINE Stopped thread 'Autoreloader'.
+[07/Apr/2017:16:37:36] ENGINE Stopped thread 'Autoreloader'.
+04/07/2017 04:37:36 PM - INFO - [07/Apr/2017:16:37:36] ENGINE Stopped thread '_TimeoutMonitor'.
+[07/Apr/2017:16:37:36] ENGINE Stopped thread '_TimeoutMonitor'.
+04/07/2017 04:37:36 PM - INFO - [07/Apr/2017:16:37:36] ENGINE Bus STOPPED
+[07/Apr/2017:16:37:36] ENGINE Bus STOPPED
+04/07/2017 04:37:36 PM - INFO - [07/Apr/2017:16:37:36] ENGINE Bus EXITING
+[07/Apr/2017:16:37:36] ENGINE Bus EXITING
+04/07/2017 04:37:36 PM - INFO - [07/Apr/2017:16:37:36] ENGINE Bus EXITED
+[07/Apr/2017:16:37:36] ENGINE Bus EXITED
+04/07/2017 04:37:36 PM - INFO - [07/Apr/2017:16:37:36] ENGINE Waiting for child threads to terminate...
+[07/Apr/2017:16:37:36] ENGINE Waiting for child threads to terminate...
+04/07/2017 04:38:16 PM - INFO - Starting Web Server
+Starting Web Server
+04/07/2017 04:38:16 PM - INFO - [07/Apr/2017:16:38:16] ENGINE Bus STARTING
+[07/Apr/2017:16:38:16] ENGINE Bus STARTING
+04/07/2017 04:38:16 PM - INFO - [07/Apr/2017:16:38:16] ENGINE Started monitor thread 'Autoreloader'.
+[07/Apr/2017:16:38:16] ENGINE Started monitor thread 'Autoreloader'.
+04/07/2017 04:38:16 PM - INFO - [07/Apr/2017:16:38:16] ENGINE Started monitor thread '_TimeoutMonitor'.
+[07/Apr/2017:16:38:16] ENGINE Started monitor thread '_TimeoutMonitor'.
+04/07/2017 04:38:16 PM - INFO - [07/Apr/2017:16:38:16] ENGINE Serving on 0.0.0.0:443
+[07/Apr/2017:16:38:16] ENGINE Serving on 0.0.0.0:443
+04/07/2017 04:38:16 PM - INFO - [07/Apr/2017:16:38:16] ENGINE Bus STARTED
+[07/Apr/2017:16:38:16] ENGINE Bus STARTED
+04/07/2017 04:38:36 PM - INFO - [07/Apr/2017:16:38:36] ENGINE SystemExit raised: shutting down HTTP server
+[07/Apr/2017:16:38:36] ENGINE SystemExit raised: shutting down HTTP server
+04/07/2017 04:38:36 PM - INFO - [07/Apr/2017:16:38:36] ENGINE Bus STOPPING
+[07/Apr/2017:16:38:36] ENGINE Bus STOPPING
+04/07/2017 04:38:36 PM - INFO - [07/Apr/2017:16:38:36] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 443)) shut down
+[07/Apr/2017:16:38:36] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 443)) shut down
+04/07/2017 04:38:36 PM - INFO - [07/Apr/2017:16:38:36] ENGINE Stopped thread 'Autoreloader'.
+[07/Apr/2017:16:38:36] ENGINE Stopped thread 'Autoreloader'.
+04/07/2017 04:38:36 PM - INFO - [07/Apr/2017:16:38:36] ENGINE Stopped thread '_TimeoutMonitor'.
+[07/Apr/2017:16:38:36] ENGINE Stopped thread '_TimeoutMonitor'.
+04/07/2017 04:38:36 PM - INFO - [07/Apr/2017:16:38:36] ENGINE Bus STOPPED
+[07/Apr/2017:16:38:36] ENGINE Bus STOPPED
+04/07/2017 04:38:36 PM - INFO - [07/Apr/2017:16:38:36] ENGINE Bus EXITING
+[07/Apr/2017:16:38:36] ENGINE Bus EXITING
+04/07/2017 04:38:36 PM - INFO - [07/Apr/2017:16:38:36] ENGINE Bus EXITED
+[07/Apr/2017:16:38:36] ENGINE Bus EXITED
+04/07/2017 04:38:36 PM - INFO - [07/Apr/2017:16:38:36] ENGINE Waiting for child threads to terminate...
+[07/Apr/2017:16:38:36] ENGINE Waiting for child threads to terminate...
+04/07/2017 04:39:00 PM - INFO - Starting Web Server
+Starting Web Server
+04/07/2017 04:39:00 PM - INFO - [07/Apr/2017:16:39:00] ENGINE Bus STARTING
+[07/Apr/2017:16:39:00] ENGINE Bus STARTING
+04/07/2017 04:39:00 PM - INFO - [07/Apr/2017:16:39:00] ENGINE Started monitor thread 'Autoreloader'.
+[07/Apr/2017:16:39:00] ENGINE Started monitor thread 'Autoreloader'.
+04/07/2017 04:39:00 PM - INFO - [07/Apr/2017:16:39:00] ENGINE Started monitor thread '_TimeoutMonitor'.
+[07/Apr/2017:16:39:00] ENGINE Started monitor thread '_TimeoutMonitor'.
+04/07/2017 04:39:01 PM - INFO - [07/Apr/2017:16:39:01] ENGINE Serving on 0.0.0.0:443
+[07/Apr/2017:16:39:01] ENGINE Serving on 0.0.0.0:443
+04/07/2017 04:39:01 PM - INFO - [07/Apr/2017:16:39:01] ENGINE Bus STARTED
+[07/Apr/2017:16:39:01] ENGINE Bus STARTED
+04/07/2017 04:39:17 PM - INFO - [07/Apr/2017:16:39:17] ENGINE SystemExit raised: shutting down HTTP server
+[07/Apr/2017:16:39:17] ENGINE SystemExit raised: shutting down HTTP server
+04/07/2017 04:39:17 PM - INFO - [07/Apr/2017:16:39:17] ENGINE Bus STOPPING
+[07/Apr/2017:16:39:17] ENGINE Bus STOPPING
+04/07/2017 04:39:17 PM - INFO - [07/Apr/2017:16:39:17] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 443)) shut down
+[07/Apr/2017:16:39:17] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 443)) shut down
+04/07/2017 04:39:17 PM - INFO - [07/Apr/2017:16:39:17] ENGINE Stopped thread 'Autoreloader'.
+[07/Apr/2017:16:39:17] ENGINE Stopped thread 'Autoreloader'.
+04/07/2017 04:39:17 PM - INFO - [07/Apr/2017:16:39:17] ENGINE Stopped thread '_TimeoutMonitor'.
+[07/Apr/2017:16:39:17] ENGINE Stopped thread '_TimeoutMonitor'.
+04/07/2017 04:39:17 PM - INFO - [07/Apr/2017:16:39:17] ENGINE Bus STOPPED
+[07/Apr/2017:16:39:17] ENGINE Bus STOPPED
+04/07/2017 04:39:17 PM - INFO - [07/Apr/2017:16:39:17] ENGINE Bus EXITING
+[07/Apr/2017:16:39:17] ENGINE Bus EXITING
+04/07/2017 04:39:17 PM - INFO - [07/Apr/2017:16:39:17] ENGINE Bus EXITED
+[07/Apr/2017:16:39:17] ENGINE Bus EXITED
+04/07/2017 04:39:17 PM - INFO - [07/Apr/2017:16:39:17] ENGINE Waiting for child threads to terminate...
+[07/Apr/2017:16:39:17] ENGINE Waiting for child threads to terminate...
+04/07/2017 04:40:49 PM - INFO - Starting Web Server
+Starting Web Server
+04/07/2017 04:40:49 PM - INFO - [07/Apr/2017:16:40:49] ENGINE Bus STARTING
+[07/Apr/2017:16:40:49] ENGINE Bus STARTING
+04/07/2017 04:40:49 PM - INFO - [07/Apr/2017:16:40:49] ENGINE Started monitor thread 'Autoreloader'.
+[07/Apr/2017:16:40:49] ENGINE Started monitor thread 'Autoreloader'.
+04/07/2017 04:40:49 PM - INFO - [07/Apr/2017:16:40:49] ENGINE Started monitor thread '_TimeoutMonitor'.
+[07/Apr/2017:16:40:49] ENGINE Started monitor thread '_TimeoutMonitor'.
+04/07/2017 04:40:49 PM - INFO - [07/Apr/2017:16:40:49] ENGINE Serving on 0.0.0.0:443
+[07/Apr/2017:16:40:49] ENGINE Serving on 0.0.0.0:443
+04/07/2017 04:40:49 PM - INFO - [07/Apr/2017:16:40:49] ENGINE Bus STARTED
+[07/Apr/2017:16:40:49] ENGINE Bus STARTED
+04/07/2017 04:41:07 PM - INFO - [07/Apr/2017:16:41:07] ENGINE SystemExit raised: shutting down HTTP server
+[07/Apr/2017:16:41:07] ENGINE SystemExit raised: shutting down HTTP server
+04/07/2017 04:41:07 PM - INFO - [07/Apr/2017:16:41:07] ENGINE Bus STOPPING
+[07/Apr/2017:16:41:07] ENGINE Bus STOPPING
+04/07/2017 04:41:07 PM - INFO - [07/Apr/2017:16:41:07] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 443)) shut down
+[07/Apr/2017:16:41:07] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 443)) shut down
+04/07/2017 04:41:07 PM - INFO - [07/Apr/2017:16:41:07] ENGINE Stopped thread 'Autoreloader'.
+[07/Apr/2017:16:41:07] ENGINE Stopped thread 'Autoreloader'.
+04/07/2017 04:41:07 PM - INFO - [07/Apr/2017:16:41:07] ENGINE Stopped thread '_TimeoutMonitor'.
+[07/Apr/2017:16:41:07] ENGINE Stopped thread '_TimeoutMonitor'.
+04/07/2017 04:41:07 PM - INFO - [07/Apr/2017:16:41:07] ENGINE Bus STOPPED
+[07/Apr/2017:16:41:07] ENGINE Bus STOPPED
+04/07/2017 04:41:07 PM - INFO - [07/Apr/2017:16:41:07] ENGINE Bus EXITING
+[07/Apr/2017:16:41:07] ENGINE Bus EXITING
+04/07/2017 04:41:07 PM - INFO - [07/Apr/2017:16:41:07] ENGINE Bus EXITED
+[07/Apr/2017:16:41:07] ENGINE Bus EXITED
+04/07/2017 04:41:07 PM - INFO - [07/Apr/2017:16:41:07] ENGINE Waiting for child threads to terminate...
+[07/Apr/2017:16:41:07] ENGINE Waiting for child threads to terminate...
+04/07/2017 04:41:20 PM - INFO - Starting Web Server
+Starting Web Server
+04/07/2017 04:41:20 PM - INFO - [07/Apr/2017:16:41:20] ENGINE Bus STARTING
+[07/Apr/2017:16:41:20] ENGINE Bus STARTING
+04/07/2017 04:41:20 PM - INFO - [07/Apr/2017:16:41:20] ENGINE Started monitor thread 'Autoreloader'.
+[07/Apr/2017:16:41:20] ENGINE Started monitor thread 'Autoreloader'.
+04/07/2017 04:41:20 PM - INFO - [07/Apr/2017:16:41:20] ENGINE Started monitor thread '_TimeoutMonitor'.
+[07/Apr/2017:16:41:20] ENGINE Started monitor thread '_TimeoutMonitor'.
+04/07/2017 04:41:20 PM - INFO - [07/Apr/2017:16:41:20] ENGINE Serving on 0.0.0.0:443
+[07/Apr/2017:16:41:20] ENGINE Serving on 0.0.0.0:443
+04/07/2017 04:41:20 PM - INFO - [07/Apr/2017:16:41:20] ENGINE Bus STARTED
+[07/Apr/2017:16:41:20] ENGINE Bus STARTED
+04/07/2017 04:41:39 PM - INFO - [07/Apr/2017:16:41:39] ENGINE SystemExit raised: shutting down HTTP server
+[07/Apr/2017:16:41:39] ENGINE SystemExit raised: shutting down HTTP server
+04/07/2017 04:41:39 PM - INFO - [07/Apr/2017:16:41:39] ENGINE Bus STOPPING
+[07/Apr/2017:16:41:39] ENGINE Bus STOPPING
+04/07/2017 04:41:39 PM - INFO - [07/Apr/2017:16:41:39] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 443)) shut down
+[07/Apr/2017:16:41:39] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 443)) shut down
+04/07/2017 04:41:39 PM - INFO - [07/Apr/2017:16:41:39] ENGINE Stopped thread 'Autoreloader'.
+[07/Apr/2017:16:41:39] ENGINE Stopped thread 'Autoreloader'.
+04/07/2017 04:41:39 PM - INFO - [07/Apr/2017:16:41:39] ENGINE Stopped thread '_TimeoutMonitor'.
+[07/Apr/2017:16:41:39] ENGINE Stopped thread '_TimeoutMonitor'.
+04/07/2017 04:41:39 PM - INFO - [07/Apr/2017:16:41:39] ENGINE Bus STOPPED
+[07/Apr/2017:16:41:39] ENGINE Bus STOPPED
+04/07/2017 04:41:39 PM - INFO - [07/Apr/2017:16:41:39] ENGINE Bus EXITING
+[07/Apr/2017:16:41:39] ENGINE Bus EXITING
+04/07/2017 04:41:39 PM - INFO - [07/Apr/2017:16:41:39] ENGINE Bus EXITED
+[07/Apr/2017:16:41:39] ENGINE Bus EXITED
+04/07/2017 04:41:39 PM - INFO - [07/Apr/2017:16:41:39] ENGINE Waiting for child threads to terminate...
+[07/Apr/2017:16:41:39] ENGINE Waiting for child threads to terminate...
+04/07/2017 04:42:33 PM - INFO - Starting Web Server
+Starting Web Server
+04/07/2017 04:42:33 PM - INFO - [07/Apr/2017:16:42:33] ENGINE Bus STARTING
+[07/Apr/2017:16:42:33] ENGINE Bus STARTING
+04/07/2017 04:42:33 PM - INFO - [07/Apr/2017:16:42:33] ENGINE Started monitor thread 'Autoreloader'.
+[07/Apr/2017:16:42:33] ENGINE Started monitor thread 'Autoreloader'.
+04/07/2017 04:42:33 PM - INFO - [07/Apr/2017:16:42:33] ENGINE Started monitor thread '_TimeoutMonitor'.
+[07/Apr/2017:16:42:33] ENGINE Started monitor thread '_TimeoutMonitor'.
+04/07/2017 04:42:33 PM - INFO - [07/Apr/2017:16:42:33] ENGINE Serving on 0.0.0.0:443
+[07/Apr/2017:16:42:33] ENGINE Serving on 0.0.0.0:443
+04/07/2017 04:42:33 PM - INFO - [07/Apr/2017:16:42:33] ENGINE Bus STARTED
+[07/Apr/2017:16:42:33] ENGINE Bus STARTED
+04/07/2017 04:46:02 PM - INFO - Starting Web Server
+Starting Web Server
+04/07/2017 04:46:02 PM - INFO - [07/Apr/2017:16:46:02] ENGINE Bus STARTING
+[07/Apr/2017:16:46:02] ENGINE Bus STARTING
+04/07/2017 04:46:02 PM - INFO - [07/Apr/2017:16:46:02] ENGINE Started monitor thread 'Autoreloader'.
+[07/Apr/2017:16:46:02] ENGINE Started monitor thread 'Autoreloader'.
+04/07/2017 04:46:02 PM - INFO - [07/Apr/2017:16:46:02] ENGINE Started monitor thread '_TimeoutMonitor'.
+[07/Apr/2017:16:46:02] ENGINE Started monitor thread '_TimeoutMonitor'.
+04/07/2017 04:46:03 PM - INFO - [07/Apr/2017:16:46:03] ENGINE Serving on 0.0.0.0:443
+[07/Apr/2017:16:46:03] ENGINE Serving on 0.0.0.0:443
+04/07/2017 04:46:03 PM - INFO - [07/Apr/2017:16:46:03] ENGINE Bus STARTED
+[07/Apr/2017:16:46:03] ENGINE Bus STARTED
+04/07/2017 04:46:23 PM - INFO - [07/Apr/2017:16:46:23] ENGINE SystemExit raised: shutting down HTTP server
+[07/Apr/2017:16:46:23] ENGINE SystemExit raised: shutting down HTTP server
+04/07/2017 04:46:23 PM - INFO - [07/Apr/2017:16:46:23] ENGINE Bus STOPPING
+[07/Apr/2017:16:46:23] ENGINE Bus STOPPING
+04/07/2017 04:46:23 PM - INFO - [07/Apr/2017:16:46:23] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 443)) shut down
+[07/Apr/2017:16:46:23] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 443)) shut down
+04/07/2017 04:46:23 PM - INFO - [07/Apr/2017:16:46:23] ENGINE Stopped thread 'Autoreloader'.
+[07/Apr/2017:16:46:23] ENGINE Stopped thread 'Autoreloader'.
+04/07/2017 04:46:23 PM - INFO - [07/Apr/2017:16:46:23] ENGINE Stopped thread '_TimeoutMonitor'.
+[07/Apr/2017:16:46:23] ENGINE Stopped thread '_TimeoutMonitor'.
+04/07/2017 04:46:23 PM - INFO - [07/Apr/2017:16:46:23] ENGINE Bus STOPPED
+[07/Apr/2017:16:46:23] ENGINE Bus STOPPED
+04/07/2017 04:46:23 PM - INFO - [07/Apr/2017:16:46:23] ENGINE Bus EXITING
+[07/Apr/2017:16:46:23] ENGINE Bus EXITING
+04/07/2017 04:46:23 PM - INFO - [07/Apr/2017:16:46:23] ENGINE Bus EXITED
+[07/Apr/2017:16:46:23] ENGINE Bus EXITED
+04/07/2017 04:46:23 PM - INFO - [07/Apr/2017:16:46:23] ENGINE Waiting for child threads to terminate...
+[07/Apr/2017:16:46:23] ENGINE Waiting for child threads to terminate...
+04/07/2017 04:47:44 PM - INFO - Starting Web Server
+Starting Web Server
+04/07/2017 04:47:44 PM - INFO - [07/Apr/2017:16:47:44] ENGINE Bus STARTING
+[07/Apr/2017:16:47:44] ENGINE Bus STARTING
+04/07/2017 04:47:44 PM - INFO - [07/Apr/2017:16:47:44] ENGINE Started monitor thread 'Autoreloader'.
+[07/Apr/2017:16:47:44] ENGINE Started monitor thread 'Autoreloader'.
+04/07/2017 04:47:44 PM - INFO - [07/Apr/2017:16:47:44] ENGINE Started monitor thread '_TimeoutMonitor'.
+[07/Apr/2017:16:47:44] ENGINE Started monitor thread '_TimeoutMonitor'.
+04/07/2017 04:47:45 PM - INFO - [07/Apr/2017:16:47:45] ENGINE Serving on 0.0.0.0:443
+[07/Apr/2017:16:47:45] ENGINE Serving on 0.0.0.0:443
+04/07/2017 04:47:45 PM - INFO - [07/Apr/2017:16:47:45] ENGINE Bus STARTED
+[07/Apr/2017:16:47:45] ENGINE Bus STARTED
+04/07/2017 04:49:16 PM - INFO - Starting Web Server
+Starting Web Server
+04/07/2017 04:49:16 PM - INFO - [07/Apr/2017:16:49:16] ENGINE Bus STARTING
+[07/Apr/2017:16:49:16] ENGINE Bus STARTING
+04/07/2017 04:49:16 PM - INFO - [07/Apr/2017:16:49:16] ENGINE Started monitor thread 'Autoreloader'.
+[07/Apr/2017:16:49:16] ENGINE Started monitor thread 'Autoreloader'.
+04/07/2017 04:49:16 PM - INFO - [07/Apr/2017:16:49:16] ENGINE Started monitor thread '_TimeoutMonitor'.
+[07/Apr/2017:16:49:16] ENGINE Started monitor thread '_TimeoutMonitor'.
+04/07/2017 04:49:16 PM - INFO - [07/Apr/2017:16:49:16] ENGINE Serving on 0.0.0.0:443
+[07/Apr/2017:16:49:16] ENGINE Serving on 0.0.0.0:443
+04/07/2017 04:49:16 PM - INFO - [07/Apr/2017:16:49:16] ENGINE Bus STARTED
+[07/Apr/2017:16:49:16] ENGINE Bus STARTED
+04/07/2017 04:58:52 PM - INFO - Starting Web Server
+Starting Web Server
+04/07/2017 04:58:52 PM - INFO - [07/Apr/2017:16:58:52] ENGINE Bus STARTING
+[07/Apr/2017:16:58:52] ENGINE Bus STARTING
+04/07/2017 04:58:52 PM - INFO - [07/Apr/2017:16:58:52] ENGINE Started monitor thread 'Autoreloader'.
+[07/Apr/2017:16:58:52] ENGINE Started monitor thread 'Autoreloader'.
+04/07/2017 04:58:52 PM - INFO - [07/Apr/2017:16:58:52] ENGINE Started monitor thread '_TimeoutMonitor'.
+[07/Apr/2017:16:58:52] ENGINE Started monitor thread '_TimeoutMonitor'.
+04/07/2017 04:58:52 PM - INFO - [07/Apr/2017:16:58:52] ENGINE Serving on 0.0.0.0:443
+[07/Apr/2017:16:58:52] ENGINE Serving on 0.0.0.0:443
+04/07/2017 04:58:52 PM - INFO - [07/Apr/2017:16:58:52] ENGINE Bus STARTED
+[07/Apr/2017:16:58:52] ENGINE Bus STARTED
+04/07/2017 05:27:39 PM - INFO - Starting Web Server
+Starting Web Server
+04/07/2017 05:27:39 PM - INFO - [07/Apr/2017:17:27:39] ENGINE Bus STARTING
+[07/Apr/2017:17:27:39] ENGINE Bus STARTING
+04/07/2017 05:27:39 PM - INFO - [07/Apr/2017:17:27:39] ENGINE Started monitor thread 'Autoreloader'.
+[07/Apr/2017:17:27:39] ENGINE Started monitor thread 'Autoreloader'.
+04/07/2017 05:27:39 PM - INFO - [07/Apr/2017:17:27:39] ENGINE Started monitor thread '_TimeoutMonitor'.
+[07/Apr/2017:17:27:39] ENGINE Started monitor thread '_TimeoutMonitor'.
+04/07/2017 05:27:40 PM - INFO - [07/Apr/2017:17:27:40] ENGINE Serving on 0.0.0.0:443
+[07/Apr/2017:17:27:40] ENGINE Serving on 0.0.0.0:443
+04/07/2017 05:27:40 PM - INFO - [07/Apr/2017:17:27:40] ENGINE Bus STARTED
+[07/Apr/2017:17:27:40] ENGINE Bus STARTED
+04/07/2017 05:30:20 PM - INFO - Starting Web Server
+Starting Web Server
+04/07/2017 05:30:20 PM - INFO - [07/Apr/2017:17:30:20] ENGINE Bus STARTING
+[07/Apr/2017:17:30:20] ENGINE Bus STARTING
+04/07/2017 05:30:20 PM - INFO - [07/Apr/2017:17:30:20] ENGINE Started monitor thread 'Autoreloader'.
+[07/Apr/2017:17:30:20] ENGINE Started monitor thread 'Autoreloader'.
+04/07/2017 05:30:20 PM - INFO - [07/Apr/2017:17:30:20] ENGINE Started monitor thread '_TimeoutMonitor'.
+[07/Apr/2017:17:30:20] ENGINE Started monitor thread '_TimeoutMonitor'.
+04/07/2017 05:30:20 PM - INFO - [07/Apr/2017:17:30:20] ENGINE Serving on 0.0.0.0:443
+[07/Apr/2017:17:30:20] ENGINE Serving on 0.0.0.0:443
+04/07/2017 05:30:20 PM - INFO - [07/Apr/2017:17:30:20] ENGINE Bus STARTED
+[07/Apr/2017:17:30:20] ENGINE Bus STARTED
+04/07/2017 05:30:41 PM - ERROR - Function dev.open(gather_facts = False) raised <class 'jnpr.junos.exception.ConnectUnknownHostError'> (
+    Generated if the specific hostname does not DNS resolve
+    ): 
+Function dev.open(gather_facts = False) raised <class 'jnpr.junos.exception.ConnectUnknownHostError'> (
+    Generated if the specific hostname does not DNS resolve
+    ): 
+04/07/2017 05:30:43 PM - ERROR - Function exception_message=e.message)) raised <type 'exceptions.AttributeError'> (Attribute not found.): 'str' object has no attribute 'message'
+Function exception_message=e.message)) raised <type 'exceptions.AttributeError'> (Attribute not found.): 'str' object has no attribute 'message'
+04/07/2017 05:31:06 PM - ERROR - Function dev.open(gather_facts = False) raised <class 'jnpr.junos.exception.ConnectUnknownHostError'> (
+    Generated if the specific hostname does not DNS resolve
+    ): 
+Function dev.open(gather_facts = False) raised <class 'jnpr.junos.exception.ConnectUnknownHostError'> (
+    Generated if the specific hostname does not DNS resolve
+    ): 
+04/07/2017 05:31:08 PM - ERROR - Function exception_message=e.message)) raised <type 'exceptions.AttributeError'> (Attribute not found.): 'str' object has no attribute 'message'
+Function exception_message=e.message)) raised <type 'exceptions.AttributeError'> (Attribute not found.): 'str' object has no attribute 'message'
+04/07/2017 05:32:16 PM - INFO - Starting Web Server
+Starting Web Server
+04/07/2017 05:32:16 PM - INFO - [07/Apr/2017:17:32:16] ENGINE Bus STARTING
+[07/Apr/2017:17:32:16] ENGINE Bus STARTING
+04/07/2017 05:32:16 PM - INFO - [07/Apr/2017:17:32:16] ENGINE Started monitor thread 'Autoreloader'.
+[07/Apr/2017:17:32:16] ENGINE Started monitor thread 'Autoreloader'.
+04/07/2017 05:32:16 PM - INFO - [07/Apr/2017:17:32:16] ENGINE Started monitor thread '_TimeoutMonitor'.
+[07/Apr/2017:17:32:16] ENGINE Started monitor thread '_TimeoutMonitor'.
+04/07/2017 05:32:16 PM - INFO - [07/Apr/2017:17:32:16] ENGINE Serving on 0.0.0.0:443
+[07/Apr/2017:17:32:16] ENGINE Serving on 0.0.0.0:443
+04/07/2017 05:32:16 PM - INFO - [07/Apr/2017:17:32:16] ENGINE Bus STARTED
+[07/Apr/2017:17:32:16] ENGINE Bus STARTED
+04/07/2017 05:32:33 PM - ERROR - Function exception_message=e.message)) raised <type 'exceptions.AttributeError'> (Attribute not found.): 'str' object has no attribute 'message'
+Function exception_message=e.message)) raised <type 'exceptions.AttributeError'> (Attribute not found.): 'str' object has no attribute 'message'
+04/07/2017 05:34:16 PM - INFO - Starting Web Server
+Starting Web Server
+04/07/2017 05:34:16 PM - INFO - [07/Apr/2017:17:34:16] ENGINE Bus STARTING
+[07/Apr/2017:17:34:16] ENGINE Bus STARTING
+04/07/2017 05:34:16 PM - INFO - [07/Apr/2017:17:34:16] ENGINE Started monitor thread 'Autoreloader'.
+[07/Apr/2017:17:34:16] ENGINE Started monitor thread 'Autoreloader'.
+04/07/2017 05:34:16 PM - INFO - [07/Apr/2017:17:34:16] ENGINE Started monitor thread '_TimeoutMonitor'.
+[07/Apr/2017:17:34:16] ENGINE Started monitor thread '_TimeoutMonitor'.
+04/07/2017 05:34:16 PM - INFO - [07/Apr/2017:17:34:16] ENGINE Serving on 0.0.0.0:443
+[07/Apr/2017:17:34:16] ENGINE Serving on 0.0.0.0:443
+04/07/2017 05:34:16 PM - INFO - [07/Apr/2017:17:34:16] ENGINE Bus STARTED
+[07/Apr/2017:17:34:16] ENGINE Bus STARTED
+04/07/2017 05:34:34 PM - ERROR - Function exception_message=e.message)) raised <type 'exceptions.AttributeError'> (Attribute not found.): 'str' object has no attribute 'message'
+Function exception_message=e.message)) raised <type 'exceptions.AttributeError'> (Attribute not found.): 'str' object has no attribute 'message'
+04/07/2017 05:35:23 PM - INFO - Starting Web Server
+Starting Web Server
+04/07/2017 05:35:23 PM - INFO - [07/Apr/2017:17:35:23] ENGINE Bus STARTING
+[07/Apr/2017:17:35:23] ENGINE Bus STARTING
+04/07/2017 05:35:23 PM - INFO - [07/Apr/2017:17:35:23] ENGINE Started monitor thread 'Autoreloader'.
+[07/Apr/2017:17:35:23] ENGINE Started monitor thread 'Autoreloader'.
+04/07/2017 05:35:23 PM - INFO - [07/Apr/2017:17:35:23] ENGINE Started monitor thread '_TimeoutMonitor'.
+[07/Apr/2017:17:35:23] ENGINE Started monitor thread '_TimeoutMonitor'.
+04/07/2017 05:35:23 PM - INFO - [07/Apr/2017:17:35:23] ENGINE Serving on 0.0.0.0:443
+[07/Apr/2017:17:35:23] ENGINE Serving on 0.0.0.0:443
+04/07/2017 05:35:23 PM - INFO - [07/Apr/2017:17:35:23] ENGINE Bus STARTED
+[07/Apr/2017:17:35:23] ENGINE Bus STARTED
+04/07/2017 05:35:40 PM - ERROR - Function exception_message=e.message)) raised <type 'exceptions.AttributeError'> (Attribute not found.): 'str' object has no attribute 'message'
+Function exception_message=e.message)) raised <type 'exceptions.AttributeError'> (Attribute not found.): 'str' object has no attribute 'message'
+04/07/2017 05:37:32 PM - INFO - Starting Web Server
+Starting Web Server
+04/07/2017 05:37:32 PM - INFO - [07/Apr/2017:17:37:32] ENGINE Bus STARTING
+[07/Apr/2017:17:37:32] ENGINE Bus STARTING
+04/07/2017 05:37:32 PM - INFO - [07/Apr/2017:17:37:32] ENGINE Started monitor thread 'Autoreloader'.
+[07/Apr/2017:17:37:32] ENGINE Started monitor thread 'Autoreloader'.
+04/07/2017 05:37:32 PM - INFO - [07/Apr/2017:17:37:32] ENGINE Started monitor thread '_TimeoutMonitor'.
+[07/Apr/2017:17:37:32] ENGINE Started monitor thread '_TimeoutMonitor'.
+04/07/2017 05:37:33 PM - INFO - [07/Apr/2017:17:37:33] ENGINE Serving on 0.0.0.0:443
+[07/Apr/2017:17:37:33] ENGINE Serving on 0.0.0.0:443
+04/07/2017 05:37:33 PM - INFO - [07/Apr/2017:17:37:33] ENGINE Bus STARTED
+[07/Apr/2017:17:37:33] ENGINE Bus STARTED
+04/07/2017 05:38:22 PM - ERROR - Function exception_message=e.message)) raised <type 'exceptions.AttributeError'> (Attribute not found.): 'str' object has no attribute 'message'
+Function exception_message=e.message)) raised <type 'exceptions.AttributeError'> (Attribute not found.): 'str' object has no attribute 'message'
+04/07/2017 05:43:28 PM - INFO - Starting Web Server
+Starting Web Server
+04/07/2017 05:43:28 PM - INFO - [07/Apr/2017:17:43:28] ENGINE Bus STARTING
+[07/Apr/2017:17:43:28] ENGINE Bus STARTING
+04/07/2017 05:43:28 PM - INFO - [07/Apr/2017:17:43:28] ENGINE Started monitor thread 'Autoreloader'.
+[07/Apr/2017:17:43:28] ENGINE Started monitor thread 'Autoreloader'.
+04/07/2017 05:43:28 PM - INFO - [07/Apr/2017:17:43:28] ENGINE Started monitor thread '_TimeoutMonitor'.
+[07/Apr/2017:17:43:28] ENGINE Started monitor thread '_TimeoutMonitor'.
+04/07/2017 05:43:29 PM - INFO - [07/Apr/2017:17:43:29] ENGINE Serving on 0.0.0.0:443
+[07/Apr/2017:17:43:29] ENGINE Serving on 0.0.0.0:443
+04/07/2017 05:43:29 PM - INFO - [07/Apr/2017:17:43:29] ENGINE Bus STARTED
+[07/Apr/2017:17:43:29] ENGINE Bus STARTED
+04/07/2017 05:43:57 PM - INFO - Starting Web Server
+Starting Web Server
+04/07/2017 05:43:57 PM - INFO - [07/Apr/2017:17:43:57] ENGINE Bus STARTING
+[07/Apr/2017:17:43:57] ENGINE Bus STARTING
+04/07/2017 05:43:57 PM - INFO - [07/Apr/2017:17:43:57] ENGINE Started monitor thread 'Autoreloader'.
+[07/Apr/2017:17:43:57] ENGINE Started monitor thread 'Autoreloader'.
+04/07/2017 05:43:57 PM - INFO - [07/Apr/2017:17:43:57] ENGINE Started monitor thread '_TimeoutMonitor'.
+[07/Apr/2017:17:43:57] ENGINE Started monitor thread '_TimeoutMonitor'.
+04/07/2017 05:43:57 PM - INFO - [07/Apr/2017:17:43:57] ENGINE Serving on 0.0.0.0:443
+[07/Apr/2017:17:43:57] ENGINE Serving on 0.0.0.0:443
+04/07/2017 05:43:57 PM - INFO - [07/Apr/2017:17:43:57] ENGINE Bus STARTED
+[07/Apr/2017:17:43:57] ENGINE Bus STARTED
+04/07/2017 05:44:07 PM - INFO - Starting Web Server
+Starting Web Server
+04/07/2017 05:44:07 PM - INFO - [07/Apr/2017:17:44:07] ENGINE Bus STARTING
+[07/Apr/2017:17:44:07] ENGINE Bus STARTING
+04/07/2017 05:44:07 PM - INFO - [07/Apr/2017:17:44:07] ENGINE Started monitor thread 'Autoreloader'.
+[07/Apr/2017:17:44:07] ENGINE Started monitor thread 'Autoreloader'.
+04/07/2017 05:44:07 PM - INFO - [07/Apr/2017:17:44:07] ENGINE Started monitor thread '_TimeoutMonitor'.
+[07/Apr/2017:17:44:07] ENGINE Started monitor thread '_TimeoutMonitor'.
+04/07/2017 05:44:07 PM - INFO - [07/Apr/2017:17:44:07] ENGINE Serving on 0.0.0.0:443
+[07/Apr/2017:17:44:07] ENGINE Serving on 0.0.0.0:443
+04/07/2017 05:44:07 PM - INFO - [07/Apr/2017:17:44:07] ENGINE Bus STARTED
+[07/Apr/2017:17:44:07] ENGINE Bus STARTED
+04/07/2017 05:48:29 PM - INFO - Starting Web Server
+Starting Web Server
+04/07/2017 05:48:29 PM - INFO - [07/Apr/2017:17:48:29] ENGINE Bus STARTING
+[07/Apr/2017:17:48:29] ENGINE Bus STARTING
+04/07/2017 05:48:29 PM - INFO - [07/Apr/2017:17:48:29] ENGINE Started monitor thread 'Autoreloader'.
+[07/Apr/2017:17:48:29] ENGINE Started monitor thread 'Autoreloader'.
+04/07/2017 05:48:29 PM - INFO - [07/Apr/2017:17:48:29] ENGINE Started monitor thread '_TimeoutMonitor'.
+[07/Apr/2017:17:48:29] ENGINE Started monitor thread '_TimeoutMonitor'.
+04/07/2017 05:48:29 PM - INFO - [07/Apr/2017:17:48:29] ENGINE Serving on 0.0.0.0:443
+[07/Apr/2017:17:48:29] ENGINE Serving on 0.0.0.0:443
+04/07/2017 05:48:29 PM - INFO - [07/Apr/2017:17:48:29] ENGINE Bus STARTED
+[07/Apr/2017:17:48:29] ENGINE Bus STARTED
+04/07/2017 05:48:44 PM - ERROR - Exception on /runjob [POST]
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/Flask-0.10.1-py2.7.egg/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/lib/python2.7/site-packages/Flask-0.10.1-py2.7.egg/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/lib/python2.7/site-packages/Flask-0.10.1-py2.7.egg/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/lib/python2.7/site-packages/Flask-0.10.1-py2.7.egg/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/lib/python2.7/site-packages/Flask-0.10.1-py2.7.egg/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "./persistent-learning.py", line 135, in runjob
+    onefn(multiRun)
+  File "./persistent-learning.py", line 173, in onefn
+    runner()
+  File "./persistent-learning.py", line 168, in multiRun
+    results = pool.map_async(Run, ip_list)
+NameError: global name 'ip_list' is not defined
+Exception on /runjob [POST]
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/Flask-0.10.1-py2.7.egg/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/lib/python2.7/site-packages/Flask-0.10.1-py2.7.egg/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/lib/python2.7/site-packages/Flask-0.10.1-py2.7.egg/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/lib/python2.7/site-packages/Flask-0.10.1-py2.7.egg/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/lib/python2.7/site-packages/Flask-0.10.1-py2.7.egg/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "./persistent-learning.py", line 135, in runjob
+    onefn(multiRun)
+  File "./persistent-learning.py", line 173, in onefn
+    runner()
+  File "./persistent-learning.py", line 168, in multiRun
+    results = pool.map_async(Run, ip_list)
+NameError: global name 'ip_list' is not defined
+04/07/2017 05:49:09 PM - INFO - Starting Web Server
+Starting Web Server
+04/07/2017 05:49:09 PM - INFO - [07/Apr/2017:17:49:09] ENGINE Bus STARTING
+[07/Apr/2017:17:49:09] ENGINE Bus STARTING
+04/07/2017 05:49:09 PM - INFO - [07/Apr/2017:17:49:09] ENGINE Started monitor thread 'Autoreloader'.
+[07/Apr/2017:17:49:09] ENGINE Started monitor thread 'Autoreloader'.
+04/07/2017 05:49:09 PM - INFO - [07/Apr/2017:17:49:09] ENGINE Started monitor thread '_TimeoutMonitor'.
+[07/Apr/2017:17:49:09] ENGINE Started monitor thread '_TimeoutMonitor'.
+04/07/2017 05:49:09 PM - INFO - [07/Apr/2017:17:49:09] ENGINE Serving on 0.0.0.0:443
+[07/Apr/2017:17:49:09] ENGINE Serving on 0.0.0.0:443
+04/07/2017 05:49:09 PM - INFO - [07/Apr/2017:17:49:09] ENGINE Bus STARTED
+[07/Apr/2017:17:49:09] ENGINE Bus STARTED
+04/07/2017 05:50:29 PM - INFO - Starting Web Server
+Starting Web Server
+04/07/2017 05:50:29 PM - INFO - [07/Apr/2017:17:50:29] ENGINE Bus STARTING
+[07/Apr/2017:17:50:29] ENGINE Bus STARTING
+04/07/2017 05:50:29 PM - INFO - [07/Apr/2017:17:50:29] ENGINE Started monitor thread 'Autoreloader'.
+[07/Apr/2017:17:50:29] ENGINE Started monitor thread 'Autoreloader'.
+04/07/2017 05:50:29 PM - INFO - [07/Apr/2017:17:50:29] ENGINE Started monitor thread '_TimeoutMonitor'.
+[07/Apr/2017:17:50:29] ENGINE Started monitor thread '_TimeoutMonitor'.
+04/07/2017 05:50:29 PM - INFO - [07/Apr/2017:17:50:29] ENGINE Serving on 0.0.0.0:443
+[07/Apr/2017:17:50:29] ENGINE Serving on 0.0.0.0:443
+04/07/2017 05:50:29 PM - INFO - [07/Apr/2017:17:50:29] ENGINE Bus STARTED
+[07/Apr/2017:17:50:29] ENGINE Bus STARTED
+04/07/2017 05:50:54 PM - ERROR - Function exception_message=e.message)) raised <type 'exceptions.AttributeError'> (Attribute not found.): 'str' object has no attribute 'message'
+Function exception_message=e.message)) raised <type 'exceptions.AttributeError'> (Attribute not found.): 'str' object has no attribute 'message'
+04/07/2017 05:51:37 PM - INFO - Starting Web Server
+Starting Web Server
+04/07/2017 05:51:37 PM - INFO - [07/Apr/2017:17:51:37] ENGINE Bus STARTING
+[07/Apr/2017:17:51:37] ENGINE Bus STARTING
+04/07/2017 05:51:37 PM - INFO - [07/Apr/2017:17:51:37] ENGINE Started monitor thread 'Autoreloader'.
+[07/Apr/2017:17:51:37] ENGINE Started monitor thread 'Autoreloader'.
+04/07/2017 05:51:37 PM - INFO - [07/Apr/2017:17:51:37] ENGINE Started monitor thread '_TimeoutMonitor'.
+[07/Apr/2017:17:51:37] ENGINE Started monitor thread '_TimeoutMonitor'.
+04/07/2017 05:51:38 PM - INFO - [07/Apr/2017:17:51:38] ENGINE Serving on 0.0.0.0:443
+[07/Apr/2017:17:51:38] ENGINE Serving on 0.0.0.0:443
+04/07/2017 05:51:38 PM - INFO - [07/Apr/2017:17:51:38] ENGINE Bus STARTED
+[07/Apr/2017:17:51:38] ENGINE Bus STARTED
+04/07/2017 05:51:50 PM - ERROR - Function exception_message=e.message)) raised <type 'exceptions.AttributeError'> (Attribute not found.): 'str' object has no attribute 'message'
+Function exception_message=e.message)) raised <type 'exceptions.AttributeError'> (Attribute not found.): 'str' object has no attribute 'message'
+04/07/2017 05:52:28 PM - INFO - Starting Web Server
+Starting Web Server
+04/07/2017 05:52:28 PM - INFO - [07/Apr/2017:17:52:28] ENGINE Bus STARTING
+[07/Apr/2017:17:52:28] ENGINE Bus STARTING
+04/07/2017 05:52:28 PM - INFO - [07/Apr/2017:17:52:28] ENGINE Started monitor thread 'Autoreloader'.
+[07/Apr/2017:17:52:28] ENGINE Started monitor thread 'Autoreloader'.
+04/07/2017 05:52:28 PM - INFO - [07/Apr/2017:17:52:28] ENGINE Started monitor thread '_TimeoutMonitor'.
+[07/Apr/2017:17:52:28] ENGINE Started monitor thread '_TimeoutMonitor'.
+04/07/2017 05:52:28 PM - INFO - [07/Apr/2017:17:52:28] ENGINE Serving on 0.0.0.0:443
+[07/Apr/2017:17:52:28] ENGINE Serving on 0.0.0.0:443
+04/07/2017 05:52:28 PM - INFO - [07/Apr/2017:17:52:28] ENGINE Bus STARTED
+[07/Apr/2017:17:52:28] ENGINE Bus STARTED
+04/07/2017 05:52:41 PM - ERROR - Function exception_message=e.message)) raised <type 'exceptions.AttributeError'> (Attribute not found.): 'str' object has no attribute 'message'
+Function exception_message=e.message)) raised <type 'exceptions.AttributeError'> (Attribute not found.): 'str' object has no attribute 'message'
+04/07/2017 05:55:03 PM - INFO - Starting Web Server
+Starting Web Server
+04/07/2017 05:55:03 PM - INFO - [07/Apr/2017:17:55:03] ENGINE Bus STARTING
+[07/Apr/2017:17:55:03] ENGINE Bus STARTING
+04/07/2017 05:55:03 PM - INFO - [07/Apr/2017:17:55:03] ENGINE Started monitor thread 'Autoreloader'.
+[07/Apr/2017:17:55:03] ENGINE Started monitor thread 'Autoreloader'.
+04/07/2017 05:55:03 PM - INFO - [07/Apr/2017:17:55:03] ENGINE Started monitor thread '_TimeoutMonitor'.
+[07/Apr/2017:17:55:03] ENGINE Started monitor thread '_TimeoutMonitor'.
+04/07/2017 05:55:04 PM - INFO - [07/Apr/2017:17:55:04] ENGINE Serving on 0.0.0.0:443
+[07/Apr/2017:17:55:04] ENGINE Serving on 0.0.0.0:443
+04/07/2017 05:55:04 PM - INFO - [07/Apr/2017:17:55:04] ENGINE Bus STARTED
+[07/Apr/2017:17:55:04] ENGINE Bus STARTED
+04/07/2017 05:55:24 PM - ERROR - Function exception_message=e.message)) raised <type 'exceptions.AttributeError'> (Attribute not found.): 'str' object has no attribute 'message'
+Function exception_message=e.message)) raised <type 'exceptions.AttributeError'> (Attribute not found.): 'str' object has no attribute 'message'
+04/07/2017 05:57:05 PM - INFO - Starting Web Server
+Starting Web Server
+04/07/2017 05:57:05 PM - INFO - [07/Apr/2017:17:57:05] ENGINE Bus STARTING
+[07/Apr/2017:17:57:05] ENGINE Bus STARTING
+04/07/2017 05:57:05 PM - INFO - [07/Apr/2017:17:57:05] ENGINE Started monitor thread 'Autoreloader'.
+[07/Apr/2017:17:57:05] ENGINE Started monitor thread 'Autoreloader'.
+04/07/2017 05:57:05 PM - INFO - [07/Apr/2017:17:57:05] ENGINE Started monitor thread '_TimeoutMonitor'.
+[07/Apr/2017:17:57:05] ENGINE Started monitor thread '_TimeoutMonitor'.
+04/07/2017 05:57:05 PM - INFO - [07/Apr/2017:17:57:05] ENGINE Serving on 0.0.0.0:443
+[07/Apr/2017:17:57:05] ENGINE Serving on 0.0.0.0:443
+04/07/2017 05:57:05 PM - INFO - [07/Apr/2017:17:57:05] ENGINE Bus STARTED
+[07/Apr/2017:17:57:05] ENGINE Bus STARTED
+04/07/2017 05:57:22 PM - ERROR - Function exception_message=e.message)) raised <type 'exceptions.AttributeError'> (Attribute not found.): 'str' object has no attribute 'message'
+Function exception_message=e.message)) raised <type 'exceptions.AttributeError'> (Attribute not found.): 'str' object has no attribute 'message'
+04/07/2017 06:00:23 PM - ERROR - Function exception_message=e.message)) raised <type 'exceptions.AttributeError'> (Attribute not found.): 'str' object has no attribute 'message'
+Function exception_message=e.message)) raised <type 'exceptions.AttributeError'> (Attribute not found.): 'str' object has no attribute 'message'
+04/07/2017 06:02:19 PM - INFO - Starting Web Server
+Starting Web Server
+04/07/2017 06:02:19 PM - INFO - [07/Apr/2017:18:02:19] ENGINE Bus STARTING
+[07/Apr/2017:18:02:19] ENGINE Bus STARTING
+04/07/2017 06:02:19 PM - INFO - [07/Apr/2017:18:02:19] ENGINE Started monitor thread 'Autoreloader'.
+[07/Apr/2017:18:02:19] ENGINE Started monitor thread 'Autoreloader'.
+04/07/2017 06:02:19 PM - INFO - [07/Apr/2017:18:02:19] ENGINE Started monitor thread '_TimeoutMonitor'.
+[07/Apr/2017:18:02:19] ENGINE Started monitor thread '_TimeoutMonitor'.
+04/07/2017 06:02:20 PM - INFO - [07/Apr/2017:18:02:20] ENGINE Serving on 0.0.0.0:443
+[07/Apr/2017:18:02:20] ENGINE Serving on 0.0.0.0:443
+04/07/2017 06:02:20 PM - INFO - [07/Apr/2017:18:02:20] ENGINE Bus STARTED
+[07/Apr/2017:18:02:20] ENGINE Bus STARTED
+04/07/2017 06:02:35 PM - INFO - 192.168.0.1 was Skipped due to RPC Error.  Device is not EX Series Switch (ELS)
+192.168.0.1 was Skipped due to RPC Error.  Device is not EX Series Switch (ELS)
