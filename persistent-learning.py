@@ -1,6 +1,5 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-import getpass
 from multiprocessing.dummy import Pool as ThreadPool
 from multiprocessing import cpu_count
 import traceback
@@ -14,12 +13,7 @@ import multiprocessing.pool
 from threading import Thread
 from flask import *
 import cherrypy
-import math
-import time
 import sys
-import os
-import traceback
-import exceptions
 
 logfilesize = 1048576
 numberofbackups = 3
