@@ -65,9 +65,9 @@ macaddr = ''
 uname = ''
 upass = ''
 onedevice = ''
-hosts = open('./iplist.txt', 'r')
-ip_list = hosts.readlines()
-hosts.close()
+tmp4 = open('./iplist.txt', 'r')
+ip_list = tmp4.readlines()
+tmp4.close()
 from flask import *
 app = Flask(__name__)
 
@@ -75,13 +75,41 @@ app = Flask(__name__)
 
 def index():
     global macaddr, uname, upass
-    ip_list = open('./iplist.txt', 'r')
-    hosts_tmp = ip_list.read()
-    hosts = hosts_tmp.replace(' ', '')
-    ip_list.close()
+    tmp5 = open('./iplist.txt', 'r')
+    tmp6 = tmp5.read()
+    tmp5.close()
+    hosts = tmp6.replace(' ', '')
     try:
         index_html = open("./templates/index.html", "wb")
         process_index_html = Markup('''<html>
+        <style>
+            .blink_text {
+
+                animation:1s blinker linear infinite;
+                -webkit-animation:1s blinker linear infinite;
+                -moz-animation:1s blinker linear infinite;
+
+                 color: red;
+                }
+
+                @-moz-keyframes blinker {
+                 0% { opacity: 1.0; }
+                 50% { opacity: 0.0; }
+                 100% { opacity: 1.0; }
+                 }
+
+                @-webkit-keyframes blinker {
+                 0% { opacity: 1.0; }
+                 50% { opacity: 0.0; }
+                 100% { opacity: 1.0; }
+                 }
+
+                @keyframes blinker {
+                 0% { opacity: 1.0; }
+                 50% { opacity: 0.0; }
+                 100% { opacity: 1.0; }
+                 }
+        </style>
         <body>
             <center><form class="container text-center" method="POST" action="/runjob">
                 <form action="/runjob"><br><br>
@@ -91,7 +119,7 @@ def index():
             		<br>
             		<br>
                 <center><button type="submit" name="button" class="btn btn-primary btn-sml" enabled><strong>OK</strong></button></center><br>
-                <center>Click the "OK" button to remove MAC Address from persistent-learning table</center>
+                <center><b>Click the "OK" button to remove MAC Address from persistent-learning table</center>
                 </form></p>
             </form><center>
             <center><form class="container text-center" method="POST" action="/addhosts">
@@ -99,8 +127,9 @@ def index():
                 </textarea><br><br>
             		<br>
             		<br>
-                <center><button type="submit" name="button" class="btn btn-primary btn-sml" enabled><strong>Add EX-Switches</strong></button></center><br>
-                <center>Click the "Add EX-Switches" button to add EX-Series Switches</center>
+                <center><button type="submit" name="button" class="btn btn-primary btn-sml" enabled><strong><b>Add EX-Switches</strong></button></center><br>
+                <center><b>Click the "Add EX-Switches" button to add EX-Series Switches
+                <span class="blink_text"><br><b>Note:  Hit Return after last ip address</b></span></center>
                 </form></p>
             </form><center>
         </body>
@@ -116,15 +145,15 @@ def index():
 @app.route('/addhosts', methods=['GET', 'POST'])
 def addhosts():
     global ip_list
-    hosts_tmp = request.form['hosts']
-    hosts_tmp2 = hosts_tmp.replace(' ', '')
-    hosts = hosts_tmp2[:-1]
+    tmp = request.form['hosts']
+    tmp2 = tmp.replace(' ', '')
+    hosts = tmp2[:-1]
     ex_hosts = open("iplist.txt", "w")
     ex_hosts.write(str(hosts))
     ex_hosts.close()
-    hosts_new = open('./iplist.txt', 'r')
-    ip_list = hosts_new.readlines()
-    hosts_new.close()
+    tmp3 = open('./iplist.txt', 'r')
+    ip_list = tmp3.readlines()
+    tmp3.close()
     return redirect(url_for('index'))
 
 @app.route('/runjob', methods=['GET', 'POST'])
