@@ -12,10 +12,10 @@ CherryPy
   
   Install Python Modules listed above with PIP
   
-  git clone https://github.com/rlemm-juniper/swimming-pool-automation
+  git clone https://github.com/rlemm-juniper/persistent-learning
   
-  python pool.py
+  python persistent-learning.py
   
   -or-
   
-  ./pool.py
+  ./persistent-learning.py
