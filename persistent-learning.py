@@ -113,6 +113,7 @@ def runjob():
 def process_device(ip, **kwargs):
     global macaddr, uname, upass
     dev = Device(host=ip, **kwargs)
+    logging.info('Processing ' + ip)
     try:
         dev.open(gather_facts = False)
         dev.rpc.clear_ethernet_switching_table_persistent_learning_mac(address=macaddr)
