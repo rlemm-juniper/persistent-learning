@@ -65,9 +65,9 @@ macaddr = ''
 uname = ''
 upass = ''
 onedevice = ''
-f = open("iplist.txt")
-ip_list = f.readlines()
-
+hosts = open('./iplist.txt', 'r')
+ip_list = hosts.readlines()
+hosts.close()
 from flask import *
 app = Flask(__name__)
 
@@ -75,11 +75,15 @@ app = Flask(__name__)
 
 def index():
     global macaddr, uname, upass
+    ip_list = open('./iplist.txt', 'r')
+    hosts_tmp = ip_list.read()
+    hosts = hosts_tmp.replace(' ', '')
+    ip_list.close()
     try:
         index_html = open("./templates/index.html", "wb")
         process_index_html = Markup('''<html>
         <body>
-            <form class="container text-center" name="pyeztoolbox" method="POST" action="/runjob">
+            <center><form class="container text-center" method="POST" action="/runjob">
                 <form action="/runjob"><br><br>
                 Username<br><input type="text" name="uname"><br><br>
                 Password<br><input type="password" name="upass"><br><br>
@@ -87,9 +91,18 @@ def index():
             		<br>
             		<br>
                 <center><button type="submit" name="button" class="btn btn-primary btn-sml" enabled><strong>OK</strong></button></center><br>
-                <center>Click the "OK" button above to gather info</center>
+                <center>Click the "OK" button to remove MAC Address from persistent-learning table</center>
                 </form></p>
-            </form>
+            </form><center>
+            <center><form class="container text-center" method="POST" action="/addhosts">
+            <textarea name="hosts" cols="25" rows="5">''' + hosts + '''
+                </textarea><br><br>
+            		<br>
+            		<br>
+                <center><button type="submit" name="button" class="btn btn-primary btn-sml" enabled><strong>Add EX-Switches</strong></button></center><br>
+                <center>Click the "Add EX-Switches" button to add EX-Series Switches</center>
+                </form></p>
+            </form><center>
         </body>
         </html>''')
         index_html.write(process_index_html + '\n')
@@ -99,6 +112,20 @@ def index():
     except Exception, e:
         log_exception(e)
         return str(e)
+
+@app.route('/addhosts', methods=['GET', 'POST'])
+def addhosts():
+    global ip_list
+    hosts_tmp = request.form['hosts']
+    hosts_tmp2 = hosts_tmp.replace(' ', '')
+    hosts = hosts_tmp2[:-1]
+    ex_hosts = open("iplist.txt", "w")
+    ex_hosts.write(str(hosts))
+    ex_hosts.close()
+    hosts_new = open('./iplist.txt', 'r')
+    ip_list = hosts_new.readlines()
+    hosts_new.close()
+    return redirect(url_for('index'))
 
 @app.route('/runjob', methods=['GET', 'POST'])
 
